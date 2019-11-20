@@ -1,0 +1,19 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Project</title>
+    <link href="{% static 'css/Welcome.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>{{ wish }}</h1>
+        <h2>{{ name }}</h2>
+        <h3>Current Date and Time: {{date_now}}</h3>
+        <img src="{% static 'images/python.jpg' %}" alt="SorryNotFound" />
+        <img src="{% static 'images/django.jpg' %}" alt="SorryNotFound" />
+    </div>
+</body>
+</html>

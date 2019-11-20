@@ -1,0 +1,13 @@
+h1{
+    color: #FF0000; text-align: right; text-decoration: overline;
+}
+h2{
+    color: #0000FF; text-align: left; text-decoration: underline;
+}
+h3{
+    color: #FF00FF; text-align: center; text-decoration: line-through;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
